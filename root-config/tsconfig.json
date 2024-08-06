@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "baseUrl": "./",
+    "paths": {
+      "@babel/types": ["node_modules/@babel/types"],
+      "@babel/parser": ["node_modules/@babel/parser"]
+      // Add other paths as needed
+    },
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "src",
+    "../RootContext.tsx",
+    "../app2/src/MyParcel.tsx",
+    "../app2/src/MyParcelComponent.tsx"
+  ]
+}
